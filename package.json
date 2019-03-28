@@ -1,0 +1,8 @@
+{
+  "name": "botcamp",
+  "version": "1.0.0",
+  "description": "projeto do Botcamp da Impulso Network",
+  "main": "index.js",
+  "author": "Jonatan Machado",
+  "license": "MPL-2.0"
+}
