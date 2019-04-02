@@ -1,15 +1,17 @@
-//importação externa
-import React from "react";
+import React, { Component } from "react";
 
-//importação interna
 import BtnBotcamp from "./components/BtnBotcamp";
 import LogoBotcamp from "./components/LogoBotcamp";
-import "./style.css";
-const App = () => (
-  <div className="container">
-    <LogoBotcamp />
-    <BtnBotcamp />
-  </div>
-);
+import "./styles/styles.css";
 
+class App extends Component {
+  render() {
+    return (
+      <>
+        <LogoBotcamp />
+        <BtnBotcamp />
+      </>
+    );
+  }
+}
 export default App;
