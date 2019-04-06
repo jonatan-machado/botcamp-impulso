@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import "./styles/reset.css";
 import BtnBotcamp from "./components/BtnBotcamp";
 import LogoBotcamp from "./components/LogoBotcamp";
 import LoginWraper from "./components/LoginWraper";
