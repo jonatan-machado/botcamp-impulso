@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 
-import Chat from "./pages/Chat";
 import "./styles/reset.css";
+import Router from "./Router";
 
 class App extends Component {
   render() {
-    return <Chat />;
+    return <Router />;
   }
 }
 export default App;
