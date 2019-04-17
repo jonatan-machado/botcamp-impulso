@@ -12,6 +12,7 @@ const Chat = () => {
         <LogoBotcamp small />
         <LogoutBtnBotcamp />
       </HeaderWrapper>
+
       <InputMessage />
     </>
   );
